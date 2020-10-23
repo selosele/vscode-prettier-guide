@@ -25,3 +25,24 @@ tabWidth는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4
 
 editor.formatOnSave를 true로 설정하면, 저장할 때마다 코드 정리가 됩니다.  
 사실상 이것 때문에 prettier를 사용하는 것이니 필수로 설정해줍시다.
+
+## 사용 예시
+
+다음과 같이 a 요소의 href 속성이 줄바꿈되어 보기 좋지 않을 때, 위와 같이 설정을 완료하고 해당 html 파일에서 저장을 누르면
+
+```html
+<ul class="gnb">
+    <li><a href="">메뉴1</a></li>
+    <li><a 
+           href="">메뉴2</a></li>
+</ul>
+```
+
+아래와 같이 보기 좋게 코드가 정리됩니다.
+
+```html
+<ul class="gnb">
+    <li><a href="">메뉴1</a></li>
+    <li><a href="">메뉴2</a></li>
+</ul>
+```
