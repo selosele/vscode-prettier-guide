@@ -5,7 +5,7 @@
 1. vscode 실행
 2. 확장프로그램마켓(단축키 : ctrl + shift + x)으로 가서 prettier - code formatter 검색 후 설치
 3. 설치 후 다시로드(또는 reload)가 뜨면 눌러주기(안뜨면 넘어가주세요)
-4. **\Users\사용자\AppData\Roaming\Code\User** 경로(사용자 폴더에서 AppData 폴더가 안보이면 숨긴 항목 표시 체크해야 함)로 가서 settings.json 파일을 열고 prettier 관련 설정을 넣어주어야 하는데,
+4. **\사용자\AppData\Roaming\Code\User** 경로(사용자 폴더에서 AppData 폴더가 안보이면 숨긴 항목 표시 체크해야 함)로 가서 settings.json 파일을 열고 prettier 관련 설정을 넣어주어야 하는데,
 
 ```json
 {
