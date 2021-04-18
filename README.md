@@ -55,3 +55,7 @@ html의 ```editor.formatOnSave``` 옵션을 true로 설정하여 html 파일을 
 ## 주의사항
 
 prettier를 활성화하면 vscode 내장 기능인 ctrl + A, ctrl + K + F를 이용한 코드 정리가 불가능합니다. prettier가 더 좋으니 상관은 없지만 알아두시면 좋을 것 같습니다.
+
+## 참고
+
+- [Prettier Formatter for Visual Studio Code - Default Formatter](https://github.com/prettier/prettier-vscode#default-formatter)
