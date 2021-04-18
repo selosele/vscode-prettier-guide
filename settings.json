@@ -1,0 +1,56 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "csscomb.preset": "~/AppData/Roaming/Code/User/csscomb.json",
+  "editor.hover.enabled": true,
+  "scss.lint.zeroUnits": "warning",
+  "emmet.preferences": {
+    "css.valueSeparator": ":"
+  },
+  "html.mirrorCursorOnMatchingTag": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Windows\\sysnative\\cmd.exe",
+      "label": "cmd"
+    },
+    {
+      "shell": "C:\\Ruby24-x64\\bin\\setrbvars.cmd",
+      "label": "Ruby"
+    },
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "Git bash"
+    },
+    {
+      "shell": "C:\\Users\\sehyun\\Desktop\\tidyred.github.io",
+      "label": "template"
+    },
+    {
+      "shell": "C:\\Users\\sehyun\\Desktop\\selosele.github.io",
+      "label": "blog"
+    }
+  ],
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.cwd": "C:\\Users\\sehyun\\Desktop\\repo\\selosele.github.io",
+  "php.validate.executablePath": "C:\\Bitnami\\wampstack-8.0.2-0\\php\\php.exe",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   "editor.formatOnSave": true,
+  "prettier.printWidth": 5000,
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "[css, javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.tabWidth": 4
+
+  // "liveSassCompile.settings.formats": [
+  //     {
+  //         "format": "compact"
+  //     }
+  // ],
+  // "liveSassCompile.settings.generateMap": false,
+  // "editor.accessibilitySupport": "off"
+}
