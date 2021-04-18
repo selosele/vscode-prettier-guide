@@ -5,7 +5,7 @@
 1. vscode 실행
 2. 확장프로그램마켓(단축키 : ctrl + shift + x)으로 가서 prettier - code formatter 검색 후 설치
 3. 설치 후 다시로드(또는 reload)가 뜨면 눌러주기(안뜨면 넘어가주세요)
-4. **\사용자\AppData\Roaming\Code\User** 경로(사용자 폴더에서 AppData 폴더가 안보이면 숨긴 항목 표시 체크해야 함)로 가서 settings.json 파일을 열고 prettier 관련 설정을 넣어주어야 하는데,
+4. **\사용자\AppData\Roaming\Code\User** 경로(사용자 폴더에서 AppData 폴더가 안보이면 숨긴 항목 표시 체크해야 함)로 가서 ```settings.json``` 파일을 열고 prettier 관련 설정을 넣어주어야 하는데,
 
 ```json
 {
@@ -30,6 +30,8 @@ tabWidth는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4
 **[내용추가]** : disableLanguages를 css로 설정해주면 prettier 설정이 css에도 적용되는 것을 방지할 수 있습니다. css 파일 저장 시, 여러 줄로 바뀌어서 읽기가 힘들어짐..
 
 html의 editor.formatOnSave 옵션을 true로 설정하여 html 파일을 저장할 때마다 코드 정리가 되도록 해주고, css/javascript는 그럴 필요가 없으니 false로 설정해줍시다.
+
+그리고 vscode의 Prettier: Config Path - Path to the prettier configuration file 옵션에 설정파일 경로는 기입하지 말아주세요.
 
 ## 사용 예시
 
