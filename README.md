@@ -11,25 +11,25 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.printWidth": 5000,
+    "prettier.tabWidth": 4,
     "[html]": {
         "editor.formatOnSave": true
     },
     "[css, javascript]": {
         "editor.formatOnSave": false
     },
-    "prettier.tabWidth": 4
 }
 ```
 
 이 정도로 넣어주면 됩니다.
 
-printWidth는 예를 들어 5000줄을 넘어서면 줄바꿈이 된다는 뜻이므로 길게 잡아주면 무난하고,
+```prettier.printWidth``` 옵션은 예를 들어 5000줄을 넘어서면 줄바꿈이 된다는 뜻이므로 길게 잡아주면 무난하고,
 
-tabWidth는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4칸 들여쓰기 여부를 설정합니다. 4칸이 읽기 편하니 4로 설정해줍시다.
+```prettier.tabWidth```는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4칸 들여쓰기 여부를 설정합니다. 4칸이 읽기 편하니 4로 설정해줍시다.
 
-html의 editor.formatOnSave 옵션을 true로 설정하여 html 파일을 저장할 때마다 코드 정리가 되도록 해주고, css/javascript는 그럴 필요가 없으니 false로 설정해줍시다.
+html의 ```editor.formatOnSave``` 옵션을 true로 설정하여 html 파일을 저장할 때마다 코드 정리가 되도록 해주고, css/javascript는 그럴 필요가 없으니 false로 설정해줍시다.
 
-그리고 vscode의 Prettier: Config Path - Path to the prettier configuration file 옵션에 설정파일 경로는 기입하지 말아주세요.
+그리고 vscode의 ```Prettier: Config Path - Path to the prettier configuration file``` 옵션에 설정파일 경로는 기입하지 말아주세요.
 
 ## 사용 예시
 
