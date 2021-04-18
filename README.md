@@ -10,20 +10,20 @@
 ```json
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.printWidth": 1000,
-    "prettier.tabWidth": 4,
+    "prettier.printWidth": 5000,
     "[html]": {
         "editor.formatOnSave": true
     },
     "[css, javascript]": {
         "editor.formatOnSave": false
-    }
+    },
+    "prettier.tabWidth": 4
 }
 ```
 
 이 정도로 넣어주면 됩니다.
 
-printWidth는 예를 들어 1000줄을 넘어서면 줄바꿈이 된다는 뜻이므로 길게 잡아주면 무난하고,
+printWidth는 예를 들어 5000줄을 넘어서면 줄바꿈이 된다는 뜻이므로 길게 잡아주면 무난하고,
 
 tabWidth는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4칸 들여쓰기 여부를 설정합니다. 4칸이 읽기 편하니 4로 설정해줍시다.
 
