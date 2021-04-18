@@ -12,10 +12,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.printWidth": 1000,
     "prettier.tabWidth": 4,
-    "prettier.disableLanguages": [
-        "css"
-    ],
-    "editor.formatOnSave": true
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "[css, javascript]": {
+        "editor.formatOnSave": false
+    }
 }
 ```
 
