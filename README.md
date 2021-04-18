@@ -29,8 +29,7 @@ tabWidth는 스페이스바를 사용한 2칸 들여쓰기/탭키를 사용한 4
 
 **[내용추가]** : disableLanguages를 css로 설정해주면 prettier 설정이 css에도 적용되는 것을 방지할 수 있습니다. css 파일 저장 시, 여러 줄로 바뀌어서 읽기가 힘들어짐..
 
-editor.formatOnSave를 true로 설정하면, 저장할 때마다 코드 정리가 됩니다.  
-사실상 이것 때문에 prettier를 사용하는 것이니 필수로 설정해줍시다.
+html의 editor.formatOnSave 옵션을 true로 설정하여 html 파일을 저장할 때마다 코드 정리가 되도록 해주고, css/javascript는 그럴 필요가 없으니 false로 설정해줍시다.
 
 ## 사용 예시
 
