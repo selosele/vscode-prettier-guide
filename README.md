@@ -1,4 +1,4 @@
-# vscode 확장프로그램인 prettier 사용법
+# [KLIC 사내 매뉴얼] vscode 확장프로그램인 prettier 사용법
 
 구글에 vscode prettier 등으로 검색하면 사용법이 많이 나오나, 세팅법이 제각각이라 제일 쉬운 세팅법을 작성해보았습니다.
 
